@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+}
+
+#botonquiero{
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#botonticket{
+    border-radius:10px;
+    padding: 10px ;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#confbsas{
+    color: white;    
+    text-align: end;
+    position:absolute;
+    top: 20%;
+    right:10%;
+    left:auto;
+    bottom: 50%;
+    padding: 15px;
+    height: auto;
+    width: 50%;
+}
+
+.nav{
+
+    margin-right: 30px;    
+}
+
+.rowg-3{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.textoimagen{
+    width: 100%;;
+    background-color: rgb(73, 73, 73);
+}
+
+footer{
+    background: linear-gradient(90deg, rgb(9, 39, 53), rgb(27, 85, 119));
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+
+}
+
+.foot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    

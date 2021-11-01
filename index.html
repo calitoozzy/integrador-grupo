@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>TP Integración</title>
+</head>
+
+<body>
+  <!--barra navegacion inicio-->
+  <div class="contenedor">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container">
+        <div class="logo-conf">
+          <a class="navbar-brand text-white" href="#"><img width="100" height="60" src="codoacodo.png">Conf Bs
+            As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="conferencia">La
+                Conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="oradores">Los Oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="honolulu">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="conviertete">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#">Comprar Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--barra navecion final-->
+
+    <!--Comienzo del Carousel-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="ba1.jpg" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item">
+          <img src="ba2.jpg" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item">
+          <img src="ba3.jpg" class="d-block w-100" alt="#">
+        </div>
+      </div>
+    </div>
+    
+      <div class="" id="">
+
+        <div class="carousel-caption " id="confbsas">
+          <h1>Conf Bs as</h1>
+          <p id="invitacion">
+            Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+            experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembrso del evento,
+            a otros estudiantes de Codo a Codo y a los oradores de pimer nivel que tenemos para ti. Te esperamos!</p>
+
+          <button type="button" id="botonquiero">Quiero ser orador</button>
+
+          <button type="button" id="botonticket">Comprar Tickets</button>
+        </div>
+
+      </div>
+
+    </div>
+    <!--fin del carrusel-->
+
+
+
+    <!--cards inicio-->
+    <div>
+
+      <div class="textocentral">
+        <div class="text-center">
+          <p class="text-center">Conoce a los</p>
+          <h2 class="title">Oradores</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card-group">
+          <div class="card">
+            <img src="steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Warning</span>
+              <span class="badge bg-info text-dark">Info</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Warning</span>
+              <span class="badge bg-info text-dark">Info</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-secondary">Secondary</span>
+              <span class="badge bg-danger">Danger</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--cards final-->
+
+
+    <!--Inicio imagen con texto-->
+
+    <div class="textoimagen">
+      <div class="row g-0 bd-black position-relative">
+
+        <div class="col-md-6 mb-md-0 border">
+          <img src="honolulu.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-3 border">
+          <h2 class="text-white mt-0">Buenos Aires - Octubre</h2>
+          <p class="text-white ms-2">Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza
+            de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio
+            presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón,
+            un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte
+            latinoamericano.</p>
+          <button type="button" class="text-white btn btn-outline-secondary">Conocé más</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Fin de imagen con texto-->
+
+    <!--Inicio 2do texto-->
+
+    <div class="textocentral">
+      <div class="text-center">
+        <p class="text mt-4">Conviértete en un</p>
+        <h2 class="title">Orador</h2>
+        <label for="basic-url" class="form-label">Anótate como orador para dar un <a href="#"
+            class="text-reset dotted">charla Igniti</a>. Cuéntanos de que quieres hablar</label>
+      </div>
+    </div>
+
+
+    <!--Final del 2do texto-->
+
+
+    <!--formulario inicio-->
+    <div class="container">
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+      </div>
+    </div>
+    <!--formulario final-->
+
+    <!--inicio de footer-->
+    <footer>
+
+      <div class="d-flex justify-content-center">
+        <div class="foot">
+
+          <div class="1">
+            <a style=" color:white; text-decoration: unset;" href="#">Preguntas frecuentes</a>
+          </div>
+
+          <div class="2">
+            <a style="color:white; text-decoration: unset;" href="#">Contáctenos</a>
+          </div>
+
+          <div class="3">
+            <a style="color:white; text-decoration: unset;" href="#">Prensa</a>
+          </div>
+
+          <div class="4">
+            <a style="color:white;text-decoration: unset;" href="#">Conferencias</a>
+          </div>
+
+          <div class="5">
+            <a style="color:white; text-decoration: unset;" href="#">Términos y condiciones</a>
+          </div>
+
+          <div class="6">
+            <a style="color:white;text-decoration: unset;" href="#">Privacidad</a>
+          </div>
+
+          <div class="7">
+            <a style="color:white;text-decoration: unset;" href="#">Estudiantes</a>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <!--final de footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
