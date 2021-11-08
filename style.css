@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .logo{
     display: flex;
 }
@@ -19,7 +20,7 @@
     border-radius:10px;
     padding: 10px ;
     text-align: center;
-    background-color: chartreuse;
+    background-color: rgb(21, 165, 21);
 }
 
 #confbsas{
