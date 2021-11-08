@@ -9,8 +9,8 @@
 }
 
 #botonquiero{
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 17px;
+    padding: 17px;
     text-align: center;
 
 }
@@ -51,18 +51,65 @@
     background-color: rgb(73, 73, 73);
 }
 
-footer{
-    background: linear-gradient(90deg, rgb(9, 39, 53), rgb(27, 85, 119));
-    margin-top: 10px;
-    padding: 10px;
-    height: 100px;
 
+#final {
+    width: 100%;
+    align-items: center;
+    margin-top:20px;
+    padding:30px;
+    height: 100px;
+    color:white;
+    background-image: linear-gradient(to right, #04224b 0%, #365064 100%);
 }
 
-.foot{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.copy {
+    font-size: 15px;
+    text-align: center;
 }
     
+
+
+
+
+/*Empieza compra*/
+
+
+
+.tipoDescuento {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.estudiante, .trainee, .junior {
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+.estudiante{
+    border: 2px solid blue;
+    
+}
+.trainee { 
+    border: 2px solid aqua;
+
+}
+.junior {
+    border: 2px solid  yellow;
+} 
+.btnenviar{
+    background-color:rgb(4, 82, 4);
+    color:white ;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+
+    
+}
+.btnenviar:hover{
+    color:black;
+}
