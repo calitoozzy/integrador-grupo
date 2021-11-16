@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    padding: auto;
-    
-}
 
 .logo{
     display: flex;
@@ -124,3 +120,30 @@ justify-content: center;
 .btnenviar:hover{
     color:black;
 }
+
+/*empieza listado*/
+
+.table{
+    margin-top: 100px;
+    margin-bottom: 230px;
+    
+}
+
+
+
+
+
+
+/*empieza registro*/
+
+.formulario{
+    margin-top: 110px;
+}
+
+.form-floating{
+    margin-top: 15px;
+}
+
+
+
+
