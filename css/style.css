@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
 }
 
 .logo{
@@ -57,7 +57,7 @@ body{
     padding:30px;
     height: 100px;
     color:white;
-    background-image: linear-gradient(to right, #04224b 0%, #365064 100%);
+    background-image: linear-gradient(to right, #0a1c35 0%, #1cb7e6 100%);
 }
 
 .copy {
@@ -86,21 +86,20 @@ justify-content: center;
     margin: 20px;
     text-align: center;
     
-    
 }
 .estudiante{
-    border: 4px solid rgb(71, 71, 209);
-    background-color: rgb(107, 107, 216)
+   border: 4px solid red;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
     
 }
 .trainee { 
     border: 4px solid rgb(43, 161, 161);
-    background-color: aqua;
+    background: linear-gradient(45deg, rgb(117, 238, 143) , rgb(5, 92, 34))
 
 }
 .junior {
     border: 4px solid  yellow;
-    background-color: rgb(192, 192, 121);
+    background: linear-gradient(45deg, yellow, yellowgreen);
 } 
 .btnenviar{
     background-color:rgb(62, 136, 62);
